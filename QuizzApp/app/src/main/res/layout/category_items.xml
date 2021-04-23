@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:padding="0dp"
+    android:orientation="vertical"
+
+    android:layout_height="180dp">
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:text="cat 1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+         android:id="@+id/catName"
+android:background="@drawable/category"
+        android:textSize="26dp"
+        android:textColor="#252C4A"
+        android:gravity="center"
+        />
+
+</LinearLayout>

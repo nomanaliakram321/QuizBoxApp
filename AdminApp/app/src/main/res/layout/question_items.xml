@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:background="@drawable/category"
+    android:layout_height="100dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Question 1"
+
+android:textAlignment="viewStart"
+
+         android:id="@+id/questionId"
+android:layout_gravity="center"
+        android:layout_weight="0.9"
+android:paddingLeft="10dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#252C4A"
+        android:gravity="center"
+
+
+        tools:ignore="RtlCompat" />
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/circle"
+            android:id="@+id/delete_question"
+
+android:layout_weight="0.1"
+            android:src="@drawable/ic_baseline_delete_outline_24"
+            />
+
+
+
+</LinearLayout>

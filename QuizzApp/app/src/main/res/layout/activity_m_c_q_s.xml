@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252C4A"
+    android:orientation="vertical"
+    tools:context=".MCQSActivity">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:padding="16dp"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/progressbarborder"
+                >
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+
+                    android:progressTint="#00FFCB"
+                    android:scaleY="10"
+
+                        android:id="@+id/progress"
+                   android:max="10"
+                    android:min="0"
+
+                   style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#ffff"
+                    android:textStyle="bold"
+                    android:id="@+id/seconds"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="10sec"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_alignEnd="@+id/progress"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_access_time_24"
+                android:layout_alignRight="@+id/progress" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8B94BC"
+                android:textSize="30sp"
+                android:layout_weight="0.5"
+                android:text="Questions"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#8B94BC"
+                android:textSize="20sp"
+                android:id="@+id/count"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/progressbarborder"
+                android:text="1/10"
+                android:gravity="center_horizontal" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mcqsbackground"
+            android:padding="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/question"
+                android:textColor="#101010"
+
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="In 2017, which player became
+the leading run scorer of all tie
+in women's ODI cricket?"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#989898"
+                android:padding="15dp"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/optionA"
+                android:drawableRight="@drawable/ic_baseline_panorama_fish_eye_24"
+                android:text=" Stefanie Taylor"
+
+                android:background="@drawable/checkboxedit"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#989898"
+                android:drawableRight="@drawable/ic_baseline_panorama_fish_eye_24"
+                android:padding="15dp"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/optionB"
+                android:text=" Stefanie Taylor"
+                android:background="@drawable/checkboxedit"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="18dp"
+                android:textColor="#989898"
+                android:drawableRight="@drawable/ic_baseline_panorama_fish_eye_24"
+                android:padding="15dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/optionC"
+                android:text=" Stefanie Taylor"
+                android:background="@drawable/checkboxedit"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#989898"
+                    android:drawableRight="@drawable/ic_baseline_panorama_fish_eye_24"
+                    android:padding="15dp"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/optionD"
+                    android:text=" Stefanie Taylor"
+                    android:background="@drawable/checkboxedit"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252C4A"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/logo"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/quizbox"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Play Quiz"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20dp"
+            android:gravity="center_horizontal" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_gravity="center"
+
+           />
+
+    </LinearLayout>
+</LinearLayout>

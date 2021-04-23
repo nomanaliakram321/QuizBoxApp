@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1073075851456",
+    "project_id": "quizbox-fd3eb",
+    "storage_bucket": "quizbox-fd3eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073075851456:android:8afca5945e347ceccc5d25",
+        "android_client_info": {
+          "package_name": "noman.quizzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073075851456-736jdnp4ppmrs9thdfbato8eqmpof0of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "noman.quizzapp",
+            "certificate_hash": "3b5deefad083aa86da129223d9df76fac1633549"
+          }
+        },
+        {
+          "client_id": "1073075851456-qnbj560jkfmmcq0j29e3k5dofscfg5kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrvUYldJ47es-0Ia8kGOBXt4MCkenu-Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073075851456-qnbj560jkfmmcq0j29e3k5dofscfg5kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

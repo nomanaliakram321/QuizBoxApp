@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#252C4A"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:id="@+id/logo"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:background="@drawable/quizbox"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/signinbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.2"
+                android:background="@drawable/btncolorwhite"
+                android:gravity="center"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-121dp"
+                android:gravity="center"
+
+                android:padding="10dp"
+                android:text="SignIn"
+
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/signupbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/btncolorwhite"
+                android:gravity="center"
+                android:text="SignUp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Let's Play Quiz,"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:text="Enter your informations below"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Username"
+                android:padding="5dp"
+
+                android:textColor="#A8ABB6"
+                android:textStyle="normal"
+
+                android:textSize="14dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="nomanali"
+                android:textColorHint="#D7939090"
+                android:paddingLeft="10dp"
+                android:id="@+id/username"
+                android:paddingRight="10dp"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Email"
+                android:padding="5dp"
+
+                android:textColor="#A8ABB6"
+                android:textStyle="normal"
+
+                android:textSize="14dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="brucewayne@gmail.com"
+                android:textColorHint="#D7939090"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:id="@+id/email"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:padding="5dp"
+
+                android:textColor="#A8ABB6"
+                android:textStyle="normal"
+
+                android:textSize="14dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="*************"
+                android:inputType="textPassword"
+
+                android:textColorHint="#D7939090"
+                android:paddingLeft="10dp"
+                android:id="@+id/password"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Confirm Password"
+                android:padding="5dp"
+
+                android:textColor="#A8ABB6"
+                android:textStyle="normal"
+
+                android:textSize="14dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="*************"
+                android:inputType="textPassword"
+                android:textColorHint="#D7939090"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/confirm_password"
+                android:textColor="@color/white"
+                android:background="@drawable/edittext"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:id="@+id/proceed"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Lets Start Quiz"
+                android:background="@drawable/buttonbackground"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+
+                android:text="Information >>"/>
+
+        </LinearLayout>
+</ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

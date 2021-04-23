@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:gravity="center"
+        android:hint="Add Category"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:id="@+id/add_category_name"
+        android:textColor="@color/white"
+        android:textColorHint="#C1C1C1" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttonbackground"
+        android:gravity="center"
+        android:id="@+id/add_category_btn"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="127dp"
+        android:text="Add"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

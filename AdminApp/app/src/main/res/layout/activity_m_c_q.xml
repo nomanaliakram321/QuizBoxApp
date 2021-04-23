@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#252C4A"
+
+
+    tools:context=".MCQActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#252C4A"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="MCQ"
+            android:id="@+id/action_bar_text"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textColor="#00FFCB" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+
+    android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/mcqsbackground"
+      android:padding="10dp"
+
+android:layout_margin="16dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionDescription"
+            android:hint="Question"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textColorHint="#B5CFCCCC"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/checkboxedit"
+            android:padding="5dp"
+            android:inputType="textMultiLine"
+            android:lines="4"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionA"
+
+            android:textColorHint="#B5CFCCCC"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/checkboxedit"
+            android:hint="Option A"
+            android:textColor="@color/black"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionB"
+            android:hint="Option B"
+            android:textColorHint="#B5CFCCCC"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/checkboxedit"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionC"
+            android:textColor="@color/black"
+            android:background="@drawable/checkboxedit"
+            android:hint="Option C"
+            android:textColorHint="#B5CFCCCC"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            />
+ <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionD"
+     android:background="@drawable/checkboxedit"
+     android:hint="Option D"
+     android:textColorHint="#B5CFCCCC"
+     android:layout_marginTop="5dp"
+     android:paddingLeft="10dp"
+     android:textColor="@color/black"
+            android:inputType="text"
+            />
+ <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer"
+     android:textColorHint="#B5CFCCCC"
+     android:layout_marginTop="5dp"
+     android:paddingLeft="10dp"
+     android:background="@drawable/checkboxedit"
+     android:textColor="@color/black"
+     android:hint="Answer"
+
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/addMCQbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/addmcqbtn"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Add New MCQ"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="683dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

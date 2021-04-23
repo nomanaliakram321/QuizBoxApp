@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#252C4A"
+    tools:context=".CategoryActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+
+android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        android:background="#252C4A">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:id="@+id/backbtn"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight=".8"
+            android:text="Categories"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textColor="#00FFCB" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@drawable/ic_round_settings_24"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:id="@+id/optionMenu"
+
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/categoryRecycler"
+        android:padding="0dp"
+        android:columnWidth="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/bg"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/addbutton"
+    android:padding="10dp"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addbutton"
+    android:text="Add new Category"/>
+
+</LinearLayout>
